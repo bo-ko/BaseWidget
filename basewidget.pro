@@ -11,9 +11,9 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = basewidget
 TEMPLATE = app
 
-
+ap
 SOURCES +=\
-        BaseWidget.cpp \
+    BaseWidget.cpp \
     ToolBt.cpp \
     Main.cpp \
     TestWidget.cpp

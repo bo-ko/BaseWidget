@@ -1,5 +1,4 @@
 #include "BaseWidget.h"
-#include <QDebug>
 
 BaseWidget::BaseWidget(QWidget *parent)
     : QWidget(parent)
@@ -10,7 +9,6 @@ BaseWidget::BaseWidget(QWidget *parent)
 
 BaseWidget::~BaseWidget()
 {
-    //qDebug("test");
 }
 
 void BaseWidget::InitData()
@@ -22,7 +20,7 @@ void BaseWidget::InitData()
 
 void BaseWidget::InitUi()
 {
-    //this->setStyleSheet("QWidget{border-radius: 5px 5px;}");
+    this->setWindowFlags(Qt::FramelessWindowHint); //无边框
 }
 
 /* mouse clicked */

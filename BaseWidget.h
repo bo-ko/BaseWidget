@@ -30,7 +30,7 @@ protected:
     void mousePressEvent(QMouseEvent *event);  /* 鼠标按下 */
     void mouseReleaseEvent(QMouseEvent *event); /* 鼠标释放 */
     void mouseDoubleClickEvent(QMouseEvent * event); /* 鼠标双击 */
-    void hoverEvent();
+
 };
 
 #endif // BASEWIDGET_H
